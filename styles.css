@@ -60,21 +60,11 @@ nav{
     line-height: 1em;
     padding-top: 30px;
 }
-#main{
-   float: left; 
-   width: 70px;
-   padding: 0 30px;
-   box-sizing: border-box;
-}
 
-#sidebar{
-    float: right;
-    width: 30px;
-    background: #333;
-    color: #fff;
+.main-content .container{
     padding: 10px;
-    box-sizing: border-box;
-
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 #main-footer{
