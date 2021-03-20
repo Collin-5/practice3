@@ -42,7 +42,7 @@ nav{
 }
 
 #showcase{
-    background-image:url(images/photo1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/photo1.jpg);
     background-size: cover;
     background-position: center right;
     height: 500px;
